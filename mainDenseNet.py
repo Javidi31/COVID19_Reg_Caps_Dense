@@ -35,7 +35,7 @@ img_rows, img_cols = 224, 224
 img_channels  = 1
 num_folds = 5
 
-#LOAD Train data##############################################################################
+#LOAD Data##############################################################################
 path1        = '.\\Dataset\\COVID_CT\\'
 all_images   = []
 targets      = []
@@ -68,7 +68,7 @@ inputs    /= std_score
 targets_array = np.array(targets, dtype=np.uint8) 
 targets       = np_utils.to_categorical(targets_array, num_classes,dtype=np.uint8)
 print(inputs.shape)
-#End LOAD Train data######################################################
+#End LOAD Data######################################################
 
 
 # Define per-fold score containers
