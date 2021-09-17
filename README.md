@@ -8,10 +8,10 @@ To know more about our proposed model, please refer to the [original paper](http
 **************************************************************************************************************************************************
 To run our "Regularized Cost-Sensitive CapsNet with DenseNet" follow the below steps:
 
-1- Run "[mainDenseNet.py](https://github.com/Javidi31/RegCapsNet/blob/main/mainResNet.py)" for the training model using ResNet-18.
+1- Run "[mainDenseNet.py](https://github.com/Javidi31/COVID19_Reg_Caps_Dense/blob/master/mainDenseNet.py)" for the training model using ResNet-18.
 The best model will be saved in the folder "ResNetModels"
 
-2- Run "[ExatrctDenseNetFeatures.py](https://github.com/Javidi31/RegCapsNet/blob/main/ExtractResNetFeatures.py)" for extracting ResNet features.
+2- Run "[ExatrctDenseNetFeatures.py](https://github.com/Javidi31/COVID19_Reg_Caps_Dense/blob/master/ExatrctDenseNetFeatures.py)" for extracting ResNet features.
 This code loads the best model from folder "ResNetModels" (in step 1) 
 and then extracts train and test features in a specific layer number. 
 Features will be saved in the folder "ResNetFeatures"
