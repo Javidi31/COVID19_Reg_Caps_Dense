@@ -28,6 +28,7 @@ as input data.
 
 **************************************************************************************************************************************************
 you can clone code using the following command:
-git clone --single-branch --branch master https://github.com/Javidi31/COVID19_Reg_Caps_Dense.git
+
+`git clone --single-branch --branch master https://github.com/Javidi31/COVID19_Reg_Caps_Dense.git`
 
 Good luck
