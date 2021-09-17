@@ -8,17 +8,15 @@ To know more about our proposed model, please refer to the [original paper](http
 **************************************************************************************************************************************************
 To run our "Regularized Cost-Sensitive CapsNet with DenseNet" follow the below steps:
 
-1- To prepare the dataset, download it from the following and then run "[Preparing.m](https://github.com/Javidi31/RegCapsNet/blob/main/Preparing.m)" 
-
-2- Run "[mainResNet.py](https://github.com/Javidi31/RegCapsNet/blob/main/mainResNet.py)" for the training model using ResNet-18.
+1- Run "[mainResNet.py](https://github.com/Javidi31/RegCapsNet/blob/main/mainResNet.py)" for the training model using ResNet-18.
 The best model will be saved in the folder "ResNetModels"
 
-3- Run "[ExatrctResNetFeatures.py](https://github.com/Javidi31/RegCapsNet/blob/main/ExtractResNetFeatures.py)" for extracting ResNet features.
+2- Run "[ExatrctResNetFeatures.py](https://github.com/Javidi31/RegCapsNet/blob/main/ExtractResNetFeatures.py)" for extracting ResNet features.
 This code loads the best model from folder "ResNetModels" (in step 1) 
 and then extracts train and test features in a specific layer number. 
 Features will be saved in the folder "ResNetFeatures"
 
-4- Run "[RegResCapsNet.py](https://github.com/Javidi31/RegCapsNet/blob/main/RegResCapsNet.py)" aiming signatures classification. This 
+3- Run "[RegResCapsNet.py](https://github.com/Javidi31/RegCapsNet/blob/main/RegResCapsNet.py)" aiming signatures classification. This 
 file used features of step 2 (which are saved in folder "ResNetFeatures") 
 as input data.
 
