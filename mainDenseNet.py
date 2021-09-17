@@ -18,7 +18,7 @@ from keras.callbacks import ReduceLROnPlateau, CSVLogger, EarlyStopping
 from keras.utils import np_utils
 from sklearn.model_selection import KFold
 from keras.callbacks import ModelCheckpoint
-from densenet169 import DenseNet 
+from Densenet169 import DenseNet 
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
 
