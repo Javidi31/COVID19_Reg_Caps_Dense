@@ -1,8 +1,3 @@
-# COVID19_Reg_Caps_Dense
+# COVID19_Reg_CS_Caps_Dense - Keras/Tensorflow
 
-WorkFlow for evaluation:
-
-    1) Standard CapsNet
-    2) Standard DenseNet
-    3) Regularized CapsNet conjugate with DenseNet
-    4) Imbalanced Regularized CapsNet conjugate with DenseNet
+https://github.com/Javidi31/COVID19_Reg_Caps_Dense/blob/master/README.md
