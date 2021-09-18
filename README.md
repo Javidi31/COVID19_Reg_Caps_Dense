@@ -16,9 +16,7 @@ This code loads the best model from folder "DenseNetModels" (in step 1)
 and then extracts train and test features in a specific layer number. 
 Features will be saved in the folder "DenseNetFeatures"
 
-3- Run "[RegCSDenseCapsNet.py](https://github.com/Javidi31/RegCapsNet/blob/main/RegResCapsNet.py)" aiming signatures classification. This 
-file used features of step 2 (which are saved in folder "DenseNetFeatures") 
-as input data.
+3- Run "[RegCSDenseCapsNet.py](https://github.com/Javidi31/COVID19_Reg_Caps_Dense/blob/master/REG_CS_CAPS_DENSE/Prot1_CovidCT/reg_cs_caps_dense.py)" aiming COVID-19 classification. This file used features of step 2 (which are saved in folder "DenseNetFeatures") as input data.
 
 **************************************************************************************************************************************************
 # Dataset
