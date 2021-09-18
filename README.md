@@ -8,7 +8,7 @@ To know more about our proposed model, please refer to the [original paper](http
 **************************************************************************************************************************************************
 To run our "Regularized Cost-Sensitive CapsNet with DenseNet" follow the below steps:
 
-1- Run "[mainDenseNet.py](https://github.com/Javidi31/COVID19_Reg_Caps_Dense/blob/master/mainDenseNet.py)" for the training model using DenseNet-18.
+1- Run "[mainDenseNet.py](https://github.com/Javidi31/COVID19_Reg_Caps_Dense/blob/master/mainDenseNet.py)" for the training model using DenseNet169.
 The best model will be saved in the folder "DenseNetModels"
 
 2- Run "[ExtarctDenseNetFeatures.py](https://github.com/Javidi31/COVID19_Reg_Caps_Dense/blob/master/ExatrctDenseNetFeatures.py)" for extracting DenseNet features.
