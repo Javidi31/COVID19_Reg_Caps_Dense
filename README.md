@@ -29,4 +29,7 @@ you can clone code using the following command:
 
 `git clone --single-branch --branch master https://github.com/Javidi31/COVID19_Reg_Caps_Dense.git`
 
+use tensorflow ver1. In Googlecolab, use the following line at the top:
+`%tensorflow_version 1.x`
+
 Good luck
